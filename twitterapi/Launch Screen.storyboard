@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="twitter" translatesAutoresizingMaskIntoConstraints="NO" id="SWs-r7-UnW">
+                                <rect key="frame" x="130" y="210" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="ZQN-l7-p5h"/>
+                                    <constraint firstAttribute="height" constant="60" id="ouL-Q5-RzE"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="c5ad681669964e6192f5cbd231138016" translatesAutoresizingMaskIntoConstraints="NO" id="9Qg-FB-YMb">
+                                <rect key="frame" x="244" y="400" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="7qD-zv-Pl3"/>
+                                    <constraint firstAttribute="width" constant="60" id="hWf-gu-ips"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.14488963118695319" green="0.66547049049863494" blue="0.87264038705583757" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="9Qg-FB-YMb" secondAttribute="trailing" constant="16" id="8ra-ck-qKq"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="9Qg-FB-YMb" secondAttribute="bottom" constant="20" id="Jeh-Fu-Zdg"/>
+                            <constraint firstItem="SWs-r7-UnW" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="OdL-FE-Gz6"/>
+                            <constraint firstItem="SWs-r7-UnW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="x7b-UP-TMz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1430.625" y="205"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="c5ad681669964e6192f5cbd231138016" width="814" height="1023"/>
+        <image name="twitter" width="400" height="325"/>
+    </resources>
+</document>
